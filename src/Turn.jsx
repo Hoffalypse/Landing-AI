@@ -8,7 +8,7 @@ const Turn = () => {
       <div className="container" style={{display:'flex', flexWrap:'wrap'}}>
   <div className="card" >
      <div className="card__image-container">
-       <img className="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt=""/>
+       <img className="card__image" src="./src/assets/shirt-ss.png" alt=""/>
     </div>
       
       <svg className="card__svg" viewBox="0 0 800 500">
@@ -24,7 +24,7 @@ const Turn = () => {
   </div>
   <div className="card" style={{margin:'50px'}}>
      <div className="card__image-container">
-       <img className="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt=""/>
+       <img className="card__image" src="./src/assets/notes-ss.png" alt=""/>
     </div>
       
       <svg className="card__svg" viewBox="0 0 800 500">
@@ -40,7 +40,7 @@ const Turn = () => {
   </div>
   <div className="card">
      <div className="card__image-container">
-       <img className="card__image" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt=""/>
+       <img className="card__image" src="./src/assets/screenshot.png" alt=""/>
     </div>
       
       <svg className="card__svg" viewBox="0 0 800 500">
