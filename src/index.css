@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(250deg, #7b2ff7, #95e6fa);
+    background: linear-gradient(to top left, #333c7d, #1FC5A8);;
 }
 
 @media screen and (max-width: 916px)  {

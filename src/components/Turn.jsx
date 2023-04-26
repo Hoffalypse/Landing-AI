@@ -41,7 +41,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#8782f9"
+              fill="#359fac"
             />
             <path
               className="card__line"
@@ -76,7 +76,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#8782f9"
+              fill="#359fac"
             />
             <path
               className="card__line"
@@ -107,7 +107,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#8782f9"
+              fill="#359fac"
             />
             <path
               className="card__line"
