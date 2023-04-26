@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-import Turn from "./Turn";
+import Turn from "./components/Turn";
 
 function App() {
   return (
