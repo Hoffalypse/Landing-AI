@@ -58,10 +58,7 @@ const Turn = () => {
               style={{ marginTop: "-20px", width: "280px", marginLeft: "40px" }}
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              dolor praesentium at quod autem omnis, amet eaque unde
-              perspiciatis adipisci possimus quam facere illo et quisquam quia
-              earum nesciunt porro.
+            Tired of the same boring t-shirts? Now design your own, using your own images or the help of AI! No need to wonder what it will look like on you, Hoff-t&apos;s Design will show you a 3d image of your shirt before getting it home and realizing it&apos;s all wrong.
             </p>
           </div>
         </a>
@@ -93,10 +90,7 @@ const Turn = () => {
           <div className="card__content">
             <img src="./src/assets/notes-logo.png" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              dolor praesentium at quod autem omnis, amet eaque unde
-              perspiciatis adipisci possimus quam facere illo et quisquam quia
-              earum nesciunt porro.
+              Tired of skimming through articles to get to the point? Don&apos;t have all moring to sit and read? AI is here to help. Take any webpage, upload to HoffNotes and within seconds you will recieve a concise summary of the article in a length of your choosing.  
             </p>
           </div>
         </a>
@@ -130,14 +124,12 @@ const Turn = () => {
               style={{ width: "240px", marginLeft: "50px", marginTop: "-15px" }}
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              dolor praesentium at quod autem omnis, amet eaque unde
-              perspiciatis adipisci possimus quam facere illo et quisquam quia
-              earum nesciunt porro.
+              Ever wish Picasso had done a painting of your favorite movie star? Want your very own Banksy image drawn with your ideas? Hoffoto wihe the help of DALL-E AI can make all your image creation dreams some true. When you make the perfect image, share with the world to see! 
             </p>
           </div>
         </a>
       </div>
+      <p style={{textAlign:'center', marginTop:'50px'}}> &copy; HoffTech Solutions 2023</p>
     </body>
   );
 };
