@@ -40,7 +40,7 @@ const Turn = () => {
   </div>
   <div className="card">
      <div className="card__image-container">
-       <img className="card__image" src="./src/assets/screenshot.png" alt=""/>
+       <img className="card__image" src="./src/assets/hoffoto-ss.png" alt=""/>
     </div>
       
       <svg className="card__svg" viewBox="0 0 800 500">
