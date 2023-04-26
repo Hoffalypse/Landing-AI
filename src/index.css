@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(250deg, #7b2ff7, #95e6fa);
+}
+
 @media screen and (max-width: 916px)  {
     .choose {
         padding-bottom: 50px;

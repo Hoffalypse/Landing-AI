@@ -2,11 +2,13 @@ import { motion } from "framer-motion"
 
 const Turn = () => {
   return (
-    <>
+    <body>
       {/* <h1 style={{textAlign:'center'}}>Welcome to </h1> */}
       <motion.div  
         animate={{ rotate: 360 }}
         transition={{ duration: 2 }}
+      //   animate={{ rotateX: 360 }}
+      //  transition={{ duration: 0.8, delay: 0.3 }}
     
 >
 
@@ -20,10 +22,11 @@ const Turn = () => {
           marginTop: "20px",
         }}
       />
+       <p className="choose"style={{fontStyle:"italic", textAlign:'center', fontSize:"18px", marginTop:'1px', marginLeft:"46px"}}> Choose Your Destiny</p>
       </motion.div>
-      <p className="choose"style={{fontStyle:"italic", textAlign:'center', fontSize:"18px", marginTop:'1px', marginLeft:"58px"}}> Choose Your Destiny</p>
+     
       <div className="container" style={{ display: "flex", flexWrap: "wrap", marginTop:"-20px" }}>
-        <a href="https://3d-shirt-design.netlify.app" className="card">
+        <a href="https://3d-shirt-design.netlify.app" className="card" style={{textDecoration:'none'}}>
           <div className="card__image-container">
             
               <img
@@ -38,7 +41,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#c1c7d0"
+              fill="#8782f9"
             />
             <path
               className="card__line"
@@ -62,7 +65,7 @@ const Turn = () => {
             </p>
           </div>
         </a>
-        <a href="https://hoffnotes.netlify.app" className="card" style={{ margin: "50px" }}>
+        <a href="https://hoffnotes.netlify.app" className="card" style={{ margin: "50px", textDecoration:'none' }}>
           <div className="card__image-container">
            
             <img
@@ -76,7 +79,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#c1c7d0"
+              fill="#8782f9"
             />
             <path
               className="card__line"
@@ -97,7 +100,7 @@ const Turn = () => {
             </p>
           </div>
         </a>
-        <a href="https://hoffoto.netlify.app" className="card">
+        <a href="https://hoffoto.netlify.app" className="card" style={{textDecoration:'none'}}>
           <div className="card__image-container">
             <img
               className="card__image"
@@ -110,7 +113,7 @@ const Turn = () => {
             <path
               d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
               stroke="transparent"
-              fill="#c1c7d0"
+              fill="#8782f9"
             />
             <path
               className="card__line"
@@ -135,7 +138,7 @@ const Turn = () => {
           </div>
         </a>
       </div>
-    </>
+    </body>
   );
 };
 
