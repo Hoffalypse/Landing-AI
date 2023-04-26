@@ -1,7 +1,15 @@
+import { motion } from "framer-motion"
+
 const Turn = () => {
   return (
     <>
       {/* <h1 style={{textAlign:'center'}}>Welcome to </h1> */}
+      <motion.div  
+        animate={{ rotate: 360 }}
+        transition={{ duration: 2 }}
+    
+>
+
       <img
         src="./src/assets/logo-no-bg.png"
         style={{
@@ -9,19 +17,21 @@ const Turn = () => {
           display: "block",
           marginLeft: "auto",
           marginRight: "auto",
-          marginTop: "5px",
+          marginTop: "20px",
         }}
       />
-      <div className="container" style={{ display: "flex", flexWrap: "wrap" }}>
+      </motion.div>
+      <p className="choose"style={{fontStyle:"italic", textAlign:'center', fontSize:"18px", marginTop:'1px', marginLeft:"58px"}}> Choose Your Destiny</p>
+      <div className="container" style={{ display: "flex", flexWrap: "wrap", marginTop:"-20px" }}>
         <a href="https://3d-shirt-design.netlify.app" className="card">
           <div className="card__image-container">
-            <a href="https://3d-shirt-design.netlify.app">
+            
               <img
                 className="card__image"
                 src="./src/assets/shirt-ss.png"
-                alt=""
+                alt="hoff-t"
               />
-            </a>
+            
           </div>
 
           <svg className="card__svg" viewBox="0 0 800 500">
@@ -54,11 +64,11 @@ const Turn = () => {
         </a>
         <a href="https://hoffnotes.netlify.app" className="card" style={{ margin: "50px" }}>
           <div className="card__image-container">
-            <a href="https://hoffnotes.netlify.app"></a>
+           
             <img
               className="card__image"
               src="./src/assets/notes-ss.png"
-              alt=""
+              alt="hoffnotes"
             />
           </div>
 
@@ -92,7 +102,7 @@ const Turn = () => {
             <img
               className="card__image"
               src="./src/assets/hoffoto-ss.png"
-              alt=""
+              alt="hoffoto"
             />
           </div>
 
